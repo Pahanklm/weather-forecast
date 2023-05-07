@@ -151,3 +151,25 @@ body {
 	font-size: 20px;
 	line-height: 1.2;
 }
+
+
+@media only screen and (max-width: 635px){
+	.form{
+		flex-direction: column;
+		align-items: center;
+		height: 110px;
+	}
+	.title{
+		font-size: 22px;
+	}
+	.btn{
+		width: 260px;
+	}
+	.input{
+		width: 260px;
+		font-size: 18px;
+	}
+	.card {
+		width: 200px;
+	}
+};

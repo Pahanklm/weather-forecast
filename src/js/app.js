@@ -40,7 +40,7 @@ const header = document.querySelector('.header')
 form.onsubmit = function(e) {
     e.preventDefault()
     let city = input.value.trim();
-    const url = `http://api.weatherapi.com/v1/current.json?key=${api}&q=${city}`
+    const url = `https://api.weatherapi.com/v1/current.json?key=${api}&q=${city}`
     fetch(url)
         .then((response) => {
             return response.json()
